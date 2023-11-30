@@ -1,0 +1,54 @@
+/* oops.css */
+
+.conti {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ques {
+    color: var(--content-primary,#333846);
+    width: 70%;
+    font-size: 17px;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 150%;
+    word-break: break-all;
+    margin-bottom: 5px;
+  }
+  .QuestionAnswer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Question {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ans {
+    color: #e74c3c; /* Answer text color */
+  }
+  
+  .conti ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .conti li {
+    background-color: #fff; /* Question item background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for each question item */
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .conti li:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+  }
+  
+  .conti p {
+    color: #333; /* Text color for the Loading message */
+  }
+  

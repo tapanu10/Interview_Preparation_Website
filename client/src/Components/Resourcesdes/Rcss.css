@@ -1,0 +1,60 @@
+/* Rcss.css */
+
+.all {
+    margin-top: 60px;
+}
+
+.coding-content {
+    display: flex;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+}
+
+.text1 {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 40px;
+    max-width: 500px; /* Set a maximum width for better readability on larger screens */
+    margin: 0 auto; /* Center the content */
+    text-align: left;
+   
+}
+
+.text1 h1 {
+    font-size: 2.5em; /* Adjust the font size as needed */
+    color: #333; /* Set your desired text color */
+    margin-bottom: 15px;
+}
+
+/* Additional styling for the paragraph */
+.text1 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.img {
+    /* Add styling for the image container as needed */
+
+}
+
+.img img {
+    /* Add styling for the image as needed */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+.btn1 {
+    background-color: #007bff; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px 20px; /* Set padding as needed */
+    font-size: 1.2em; /* Set your desired font size */
+    border: none;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+    /* Optional: Add hover styles */
+    &:hover {
+        background-color: #0056b3; /* Set a darker color on hover */
+    }
+}
