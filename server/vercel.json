@@ -1,12 +1,15 @@
-{
+   {
   "version": 2,
-  "builds": [{ "src": "public/**/*", "use": "@vercel/static-build" }],
-  "routes": [
-    { "handle": "filesystem" },
+  "builds": [
     {
-      "src": "/.*",
-      "dest": "/index.html",
-      "headers": { "Cache-Control": "s-maxage=1, stale-while-revalidate" }
+      "src": "./server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "destination": "/"
     }
   ]
 }
